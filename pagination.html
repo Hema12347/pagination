@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+    .container {
+    border: 1px solid rgba(236, 240, 241, 0.605);
+    color: #20B2AA;
+    background-color: #fff;
+    padding: 20px;
+    width: 750px
+}
+
+.controls-item {
+    display: inline-block;
+}
+
+.btn {
+    margin: 5px;
+    color: white;
+    background-color: #20B2AA;
+}
+body {
+    background-color: #20B2AA;
+}
+    </style>
+</head>
+<header style="padding-left: 45%;padding-bottom: 20px; font-size: xx-large; font-weight: bolder; color: white;">Pagination</header>
+<body style="padding-top: 10px;">
+    <div class="container">
+        <table class="table table-dark" id="our-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>NAME</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+    
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="container ">
+        <div id="pagination-wrapper"></div>
+    </div>
+        <script src="pagination.js"></script>
+</body>
+</html>
